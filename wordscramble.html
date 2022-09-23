@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="./wordscramble.css" rel="stylesheet">
+    <script src="./wordscramble.js" defer></script>
+    <title>Word Scramble</title>
+</head>
+<body>
+    <header>
+        Word Scamble
+    </header>
+    <main>
+        <h1>Word Scramble</h1>
+        <hr/>
+        <section id="timer">
+            <label for="time">Select timer:</label>
+            <input type="number" min="5" max="30" step="5" id="time" value="5">
+        </section>
+        <h4>Arrange the following letters into a meaningful word</h4>
+        <section id="letters">
+            
+        </section>
+        <hr/>
+        <span>Time Left: </span> <span id="timelelf"></span>
+        <hr/>
+        <input type="text" id="guess" placeholder="Enter a valid word">
+        <br/>
+        <button id="createword">Refresh Word</button>
+        <button id="checkword">Check Word</button>
+        <button id="giveup">Give Up :(</button>
+        <div id="result">
+
+        </div>
+    </main>
+    <footer>      
+        <div id="findme"> 
+            
+            <span><a href="mailto:thanhquang19@gmail.com" target="_blank"> <i class="fa fa-envelope" ></i></a></span>
+            <span><a href="https://www.linkedin.com/in/thanh-quang-phan-6387a8223/" target="_blank"> <i class="fa fa-linkedin" ></i></a></span>
+            <span><a href="https://github.com/thanhquang19" target="_blank"><i class="fa fa-github"></i></a></span>
+            <br>
+            find me 
+        </div>
+    </footer>
+
+</body>
+</html>
